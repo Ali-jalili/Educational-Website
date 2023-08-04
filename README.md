@@ -1,1 +1,1 @@
-# blogs-and-magazine-websites
+# Educational Website
