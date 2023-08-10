@@ -98,17 +98,24 @@ margin-right: 10px;
     display: none;
    }
 
-   .Login-btn{
-    display: block;
-   position: fixed;
-    top: 31rem;
-    right: -8.6rem;
-    transition: 0.5s;
-   }
 
-   .show-btn-logo{
-    right: 22rem;;
-   }
+   .parent-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Login-btn {
+  position: fixed;
+  top: 93%;
+  transform: translate(444%, -50%);
+  transition: 0.3s;
+}
+
+.show-btn-logo {
+ transform: translate(3%, -50%);
+}
 
    .show-btn{
     display: block;

@@ -2,13 +2,9 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 
-
-
 const Navbar = () => {
 
     const [Toggle, showMenu] = useState(false);
-
-
 
     return (
 
@@ -38,8 +34,14 @@ const Navbar = () => {
 
                     </ul>
 
-                    <div className={Toggle ? 'Login-btn show-btn-logo' : 'Login-btn'}>
-                        <a href='#' className='btn-start'>Log in </a>
+                    {/* <div className='Login-btn'>
+                        <a href='#' className={Toggle ? 'btn-start show-btn-logo' : 'btn-start'}>Log in </a>
+                    </div> */}
+
+                    <div className="parent-element">
+                        <div className={Toggle ? 'Login-btn show-btn-logo' : 'Login-btn'}>
+                            <a href="#" className="btn-start">Log in</a>
+                        </div>
                     </div>
 
                     <div className='show-btn' onClick={() => showMenu(!Toggle)}>
