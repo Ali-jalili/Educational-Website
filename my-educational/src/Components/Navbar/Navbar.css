@@ -69,9 +69,7 @@ margin-right: 10px;
 
 
 .btn-start{
-    background-color: var(--second-color);
-  
-    
+    background-color: var(--second-color);   
     color: #fff;
    padding: 13px 32px;
     transition: 0.3s;
@@ -91,6 +89,7 @@ margin-right: 10px;
 
 .close-btn{
     display: none;
+    
 }
 
 @media screen and (max-width :830px) {
@@ -108,7 +107,7 @@ margin-right: 10px;
    }
 
    .show-btn-logo{
-    right: 2.4rem;;
+    right: 22rem;;
    }
 
    .show-btn{
@@ -132,9 +131,9 @@ margin-right: 10px;
     backdrop-filter: blur(31px);
     position: fixed;
     top: -0.1rem;
-    right: -13rem;
+    right: -52rem;
     height: 101vh;
-    width: 200px;
+    width: 100%;
     transition: 0.3s;
    }
 
@@ -142,12 +141,8 @@ margin-right: 10px;
     right: 0;
    }
 
-   /* .section-navbar{
-    background-color: rgba(255, 255, 255, 0.5);
-   } */
-
   .close-btn{
-    
+    cursor: pointer;
     display: block;
     position: absolute;
     top: 1rem;
