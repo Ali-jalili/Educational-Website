@@ -1,0 +1,121 @@
+
+.header{
+    height: 100vh;
+    background-image: url('../../../public/Img/john-schnobrich-FlPc9_VocJ4-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+   
+   
+}
+
+.social{
+    position: absolute;
+
+    left: -4rem;
+}
+
+
+
+.box-info{
+     margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+    position: relative;
+    left: 5rem;
+    width: 50%;
+}
+.title-heading{
+    color: #ffff;
+}
+
+.heading-text-1{
+margin-bottom: 2rem;
+font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.heading-text-2{
+    font-size: 2.6rem;
+   
+}
+
+.p-heading{
+    color: #ffff;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.button-heading{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-heading{
+padding: 13px 10px;
+    border-radius: 4px;
+    background-color: var(--second-color);
+    color: #ffff;
+    transition: 0.3s;
+}
+
+.btn-heading:hover{
+    background-color: var(--hover-color);
+}
+
+.may-social{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.8rem;
+}
+
+.items-social{
+    font-size: 1.7rem;
+    color: var(--line-color);
+    transition: 0.3s;
+}
+
+.items-social:hover{
+    color: var(--hover-color); 
+}
+
+@media screen and (max-width :830px){
+    .heading-text-1{
+
+font-size: 1.3rem;
+
+  
+  
+}
+
+.heading-text-2{
+    font-size: 2rem;
+   
+}
+
+.p-heading{
+    color: #ffff;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.may-social{
+   align-items: center;
+    gap: 3rem;
+}
+
+.items-social{
+    font-size: 1.3rem;
+    color: var(--line-color);
+    transition: 0.3s;
+}
+
+}
