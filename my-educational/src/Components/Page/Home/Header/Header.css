@@ -1,14 +1,13 @@
 
 .header{
-    height: 100vh;
+    height: 105vh;
     background-image: url('../../../../../public/Img/jeshoots-com--2vD8lIhdnw-unsplash.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    position: absolute;
-    width: 100%;
-   
-   
+    position: relative;
+    top: -8rem;
+    width: 100%;  
 }
 
 .social{
@@ -17,16 +16,17 @@
     left: -4rem;
 }
 
-
+ 
 
 .box-info{
-     margin-top: 8rem;
+    margin-top: 8rem;
+    margin-left: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 1.5rem;
     position: relative;
-    left: 5rem;
+    top: 10rem;
     width: 50%;
 }
 .title-heading{
@@ -79,7 +79,7 @@ padding: 13px 10px;
 
 .items-social{
     font-size: 1.7rem;
-    color: var(--line-color);
+    color: var( --second-color);
     transition: 0.3s;
 }
 
@@ -114,22 +114,26 @@ font-size: 1.3rem;
 
 .items-social{
     font-size: 1.3rem;
-    color: var(--line-color);
     transition: 0.3s;
 }
 
 }
 
 @media screen and (max-width :572px){
+    .box-info{
+        width: 70%;
+    }
+
     .heading-text-1{
         font-size: 1.1rem;
     }
+
 
     .heading-text-2{
         font-size:1.5rem ;
     }
     .p-heading{
-        font-size: 12px;
+        font-size: 15px;
     }
     .items-social{
         font-size: 1.2rem;
