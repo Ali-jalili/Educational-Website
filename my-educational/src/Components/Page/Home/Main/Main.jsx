@@ -96,7 +96,7 @@ const Main = () => {
 
             </section>
 
-            <section className='awrapper-home'>
+            {/* <section className='awrapper-home'>
 
                 <div className='awrapper container'>
 
@@ -151,20 +151,12 @@ const Main = () => {
                         </div>
 
 
-
-
-
-
-
                     </div>
 
                 </div>
 
 
-            </section>
-
-
-
+            </section> */}
 
 
         </main>
