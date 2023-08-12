@@ -88,7 +88,7 @@ const Main = () => {
 
             </section>
 
-            {/* <section className='awrapper-home'>
+            <section className='awrapper-home'>
 
                 <div className='awrapper container'>
 
@@ -109,7 +109,7 @@ const Main = () => {
                         <div className='data-box'>
 
                             <div className='data-box-icon'>
-                                <i class="fa-solid fa-user-graduate"></i>
+                                <i class="fa-solid fa-chalkboard-user"></i>
                             </div>
 
                             <div className='data-box-text'>
@@ -121,7 +121,7 @@ const Main = () => {
                         <div className='data-box'>
 
                             <div className='data-box-icon'>
-                                <i class="fa-solid fa-user-graduate"></i>
+                                <i class="fa-solid fa-book-open"></i>
                             </div>
 
                             <div className='data-box-text'>
@@ -133,7 +133,7 @@ const Main = () => {
                         <div className='data-box'>
 
                             <div className='data-box-icon'>
-                                <i class="fa-solid fa-user-graduate"></i>
+                                <i class="fa-solid fa-chalkboard"></i>
                             </div>
 
                             <div className='data-box-text'>
@@ -148,7 +148,9 @@ const Main = () => {
                 </div>
 
 
-            </section> */}
+            </section>
+
+
 
 
         </main>
