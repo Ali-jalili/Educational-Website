@@ -12,22 +12,17 @@ const Main = () => {
 
                     <h2 className='title-about-home'>About Us</h2>
 
+                    <div className='heading-info-about'>
+                        <h3 className='title-about-1'>LEARN ANYTHING</h3>
+                        <h2 className='title-about-2'>Benefits About Online Learning Expertise</h2>
+                    </div>
+
 
                     <div className="box-info-about">
-
-                        <div className='imag-about'>
-
-                            <img src="Img/About-img-home.jpg" alt="About-img-home" />
-
-                        </div>
 
 
                         <div className="text-info-about">
 
-                            <div className='heading-info-about'>
-                                <h3 className='title-about-1'>LEARN ANYTHING</h3>
-                                <h2 className='title-about-2'>Benefits About Online Learning Expertise</h2>
-                            </div>
 
                             <div className='contact-box'>
 
@@ -40,7 +35,6 @@ const Main = () => {
                                     <div>
 
                                         <h3 className='box-title'>Online Courses</h3>
-                                        <p className='p-box'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 
                                     </div>
 
@@ -56,7 +50,6 @@ const Main = () => {
                                     <div>
 
                                         <h3 className='box-title'>Earn A Certificates</h3>
-                                        <p className='p-box'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 
                                     </div>
 
@@ -72,7 +65,6 @@ const Main = () => {
 
                                         <h3 className='box-title'>
                                             Learn with Expert</h3>
-                                        <p className='p-box'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 
                                     </div>
 
