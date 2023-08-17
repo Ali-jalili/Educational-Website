@@ -71,6 +71,8 @@ const Main = () => {
                     </div>
 
 
+
+
                     <div className="box-info-about">
 
                         <div className='about-img-home'>
@@ -140,7 +142,7 @@ const Main = () => {
 
                     <div className='courses-Card'>
 
-                        <div className='c'>
+                        <div className='item-courses'>
 
                             <div className='text-item-courses'>
                                 <img src="Img/testing.png" alt="" />
@@ -148,7 +150,10 @@ const Main = () => {
 
                             </div>
 
-
+                            <div className='box-Mentor'>
+                                <img className='img-mentor' src="Img/Mentor-1.jpg" alt="" />
+                                <span className='name-mentor'>Course instructor : Dani </span>
+                            </div>
 
 
                             <div className='text-info'>
@@ -166,6 +171,11 @@ const Main = () => {
                                 <img src="Img/caption.png" alt="" />
                                 <h3>Enhancing Adobe Photoshop</h3>
 
+                            </div>
+
+                            <div className='box-Mentor'>
+                                <img className='img-mentor' src="Img/Mentor-2.jpg" alt="" />
+                                <span className='name-mentor'>Course instructor : Valerie </span>
                             </div>
 
 
@@ -189,12 +199,17 @@ const Main = () => {
 
                             </div>
 
+                            <div className='box-Mentor'>
+                                <img className='img-mentor' src="Img/Mentor-3.jpg" alt="" />
+                                <span className='name-mentor'>Course instructor : Alexander </span>
+                            </div>
+
 
 
 
                             <div className='text-info'>
                                 <span className='price'>$150 All Course</span>
-                                <span className='lectures'>40 lectures (190 hrs)</span>
+                                <span className='lectures'>40 lectures (180 hrs)</span>
                             </div>
 
                             <button className='ENROLL'>ENROLL NOW!!</button>
@@ -209,6 +224,7 @@ const Main = () => {
 
         </main>
     )
+
 }
 
 export default Main;

@@ -197,6 +197,23 @@ display: grid;
     width: 250px;
 }
 
+.box-Mentor{
+    display: flex;
+    align-items: center;
+   gap: 0.8rem;
+}
+
+.img-mentor{
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.name-mentor{
+    color: var(--first-color);
+    font-weight: var(--font-medium);
+}
+
 .text-info{
     display: flex;
     flex-direction: column;
