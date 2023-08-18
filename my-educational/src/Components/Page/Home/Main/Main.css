@@ -12,6 +12,9 @@
 }
 
 /*?? About-Info ??*/
+.about-Home{
+    margin-top: -6rem;
+}
 
 .box-info-about{
  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -19,12 +22,11 @@
   grid-gap: 10px;
   align-items: center;
   margin-right: 8px;
-    margin-left: 8px;
+  margin-left: 8px;
 }
 
 .heading-info-about{
-    margin-top: -2rem;
-    margin-left: 8px;
+  text-align: center;
 }
 
 .about-img-home img{
@@ -243,6 +245,69 @@ display: grid;
     background-color: var(--hover-color);
 }
 
+/*?? Online Courses */
+
+.online-courses{
+    margin-top: 6rem;
+}
+
+.contact-online-courses{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 1rem;
+    margin-top: 4rem;
+}
+
+.items-courses-online{
+        background-color: var(--body-color);
+    box-shadow: 9px 9px 22px #a7a7a7, -9px -9px 22px #ffffff;
+    border-radius: 5px;
+        padding: 15px 0px;
+        cursor: pointer;
+        margin-left: 8px;
+    margin-right: 8px;
+    transition: 0.3s;
+}
+
+
+
+.items-courses-online:hover{
+    background-color: var(--hover-color);
+}
+
+.items-courses-online:hover .img-courses-online{
+    filter: brightness(10000%);
+}
+
+.items-courses-online:hover .title-courses-online{
+    color: #ffff;
+}
+
+
+.box-courses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.title-courses-online{
+    color: var(--first-color);
+}
+
+.text--courses-online{
+    border-radius: 5px;
+    padding: 10px 40px;
+    background-color: #ebebeb;
+
+}
+
+.img-courses-online{
+    width: 100px;
+    filter: hue-rotate(60deg);
+    
+}
+
 /*??RESPONSIVE*/
 
 @media screen and (max-width:840px) {
@@ -317,6 +382,7 @@ display: grid;
 .box-info-about{
     margin-top: 1rem;
 }
+
 .heading-info-about {
     margin-top: -1rem;
     text-align: center;

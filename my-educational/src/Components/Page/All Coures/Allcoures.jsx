@@ -6,6 +6,8 @@ const Allcoures = () => {
         <header>
             <Navbar />
         </header>
+
+
     )
 }
 

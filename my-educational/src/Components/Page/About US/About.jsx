@@ -1,11 +1,13 @@
 import React from 'react'
-import Navbar from '../../Navbar/Navbar'
+import './About.css'
+import Header from './Header/Header'
+
 
 const About = () => {
     return (
-        <header>
-            <Navbar />
-        </header>
+        <>
+            <Header />
+        </>
     )
 }
 
