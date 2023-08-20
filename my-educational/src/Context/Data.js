@@ -332,6 +332,28 @@ export const weblog = [
     },
 ]
 
+export const price = [
+    {
+        name: "BASIC PLAN",
+        price: "150 $",
+        desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    },
+    {
+        name: "BEGINNER PLAN",
+        price: "180 $",
+        desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    },
+    {
+        name: "PREMIUM PLAN",
+        price: "195 $",
+        desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    },
+    {
+        name: "ULTIMATE PLAN",
+        price: "120 $",
+        desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    },
+]
 
 export const team = [
     {

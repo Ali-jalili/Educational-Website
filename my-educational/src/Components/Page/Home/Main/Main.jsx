@@ -1,6 +1,6 @@
 import React from 'react';
 import './Main.css';
-import { contactBoxData, dataWrapper, coursesCard, online, testimonal, weblog, team } from '../../../../Context/Data'
+import { contactBoxData, dataWrapper, coursesCard, online, testimonal, weblog, price } from '../../../../Context/Data'
 
 // import { Swiper, SwiperSlide } from 'swiper/react';
 // import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
@@ -263,6 +263,51 @@ const Main = () => {
 
 
             </section>
+
+            <section className='section-pricing'>
+
+                <div className='heading-text'>
+                    <h3 className='title-heading-text-1'>OUR PRICING</h3>
+                    <h2 className='title-heading-text-2'>Pricing & Packages</h2>
+                </div>
+
+                <div className="container">
+
+                    <div className="contact-pricing">
+
+                        {price.map((item, id) => (
+
+                            <div className='cart-price' key={id}>
+
+                                <div className='box-price'>
+
+                                    <span className='name-price'>{item.name}</span>
+
+                                    <h2 className='price-text'>{item.price}</h2>
+
+                                    <p className='desc-price'>{item.desc}</p>
+
+                                    <button className='btn-price'>GET START</button>
+
+                                </div>
+
+
+
+
+                            </div>
+                        ))}
+
+
+
+
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
 
 
 
