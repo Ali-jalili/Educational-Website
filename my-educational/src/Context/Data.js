@@ -226,3 +226,96 @@ export const online = [
     //     course: "17 Courses",
     // },
 ]
+
+export const testimonal = [
+    {
+        id: 1,
+        name: "ROGER SCOTT",
+        post: "MARKETING MANAGER",
+        desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        cover: "Img/testo/t1.webp",
+    },
+    {
+        id: 2,
+        name: "ROGER SCOTT",
+        post: "MARKETING MANAGER",
+        desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        cover: "Img/testo/t2.webp",
+    },
+    {
+        id: 3,
+        name: "ROGER SCOTT",
+        post: "MARKETING MANAGER",
+        desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        cover: "Img/testo/t3.webp",
+    },
+
+    // {
+    //     id: 4,
+    //     name: "ROGER SCOTT",
+    //     post: "MARKETING MANAGER",
+    //     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    //     cover: "Img/testo/t4.jpg",
+    // },
+
+    // {
+    //     id: 5,
+    //     name: "ROGER SCOTT",
+    //     post: "MARKETING MANAGER",
+    //     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    //     cover: "Img/testo/t5.jpg",
+    // },
+
+    // {
+    //     id: 6,
+    //     name: "ROGER SCOTT",
+    //     post: "MARKETING MANAGER",
+    //     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    //     cover: "Img/testo/t6.jpg",
+    // },
+]
+
+
+
+export const team = [
+    {
+        cover: "Img/team/t1.webp",
+        name: "Ph.D Adrian Molises",
+        work: "DEVELOPER AND LEAD INSTRUCTOR",
+    },
+    {
+        cover: "Img/team/t2.webp",
+        name: "Ph.D Arthur MaGregor",
+        work: "DEVELOPER AND LEAD INSTRUCTOR",
+    },
+    {
+        cover: "Img/team/t3.webp",
+        name: "Ph.D Anna Hanzen",
+        work: "DEVELOPER AND LEAD INSTRUCTOR",
+    },
+    {
+        cover: "Img/team/t4.webp",
+        name: "Ph.D Brian Wooden",
+        work: "DEVELOPER AND LEAD INSTRUCTOR",
+    },
+    {
+        cover: "Img/team/t5.webp",
+        name: "Ph.D Adrian Molises",
+        work: "DEVELOPER AND LEAD INSTRUCTOR",
+    },
+    {
+        cover: "Img/team/t6.webp",
+        name: "Ph.D Arthur MaGregor",
+        work: "DEVELOPER AND LEAD INSTRUCTOR",
+    },
+    {
+        cover: "Img/team/t7.webp",
+        name: "Ph.D Anna Hanzen",
+        work: "DEVELOPER AND LEAD INSTRUCTOR",
+    },
+    {
+        cover: "Img/team/t8.webp",
+        name: "Ph.D Brian Wooden",
+        work: "DEVELOPER AND LEAD INSTRUCTOR",
+    },
+]

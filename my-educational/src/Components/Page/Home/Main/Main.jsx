@@ -1,6 +1,12 @@
 import React from 'react';
 import './Main.css';
-import { contactBoxData, dataWrapper, coursesCard, online } from '../../../../Context/Data'
+import { contactBoxData, dataWrapper, coursesCard, online, testimonal } from '../../../../Context/Data'
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
+
+// Import Swiper styles
+import 'swiper/css';
 
 const Main = () => {
 
@@ -35,9 +41,9 @@ const Main = () => {
                             <div className="contact-box">
                                 {contactBoxData.map((item, id) => (
                                     <div className="my-box" key={id}>
-                                        <div className="img">
-                                            <img src={item.image} alt="" />
-                                        </div>
+
+                                        <img className='img-learn' src={item.image} alt="" />
+
                                         <div>
                                             <h3 className="box-title">{item.title}</h3>
                                         </div>
@@ -157,9 +163,71 @@ const Main = () => {
 
             </section>
 
-        </main>
+            <section className='Testimonial'>
+
+                <div className='heading-text'>
+                    <h3 className='title-heading-text-1'>TESTIMONIAL</h3>
+                    <h2 className='title-heading-text-2'>Our Successful Students</h2>
+                </div>
+
+                <div className='container'>
+
+
+
+                    <div className='contact-testimonial'>
+
+                        {testimonal.slice(0, 6).map((item, id) => (
+
+                            <div className='card-testimonial' >
+
+                                <div className="title--testimonial">
+
+                                    <img className='img-testimonial' src={item.cover} alt="" />
+
+                                    <div className="text-title-testimonial">
+
+                                        <h3 className="hed-testimonial">
+                                            {item.name}
+
+                                        </h3>
+
+                                        <span className='text-testimonial'>
+                                            {item.post}
+
+                                        </span>
+
+
+                                    </div>
+
+                                </div>
+
+                                <p className='p-testimonial'>
+
+                                    {item.desc}
+
+                                </p>
+
+                            </div>
+
+
+                        ))}
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+            </section>
+
+
+
+        </main >
     )
 
 }
 
-export default Main;
+export default Main; 
