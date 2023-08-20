@@ -307,6 +307,40 @@ const Main = () => {
 
             </section>
 
+            <section className='section-newsletter'>
+
+                <div className="container-newsletter">
+
+                    <div className="container">
+
+                        <div className='contact-newsletter'>
+
+                            <div className='text-newsletter'>
+                                <h2 className='title-newsletter'>Newsletter - Stay tune and get the latest update</h2>
+                                <span className='desc-newsletter'>Far far away, behind the word mountains
+                                </span>
+                            </div>
+
+                            <div className='box-input'>
+
+                                <input className='input-newsletter' type="text" placeholder='Enter Email address' />
+
+                                <button className='btn-newsletter ' type='submit'> <i class="fa-solid fa-paper-plane"></i></button>
+
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </section>
+
 
 
 
