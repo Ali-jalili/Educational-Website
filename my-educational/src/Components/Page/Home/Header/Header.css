@@ -144,3 +144,12 @@ font-size: 1.3rem;
     font-size: 1.1rem;
 }
 }
+
+@media screen and (max-width:270px){
+    .box-info{
+        top: 7rem;
+    }
+
+
+
+}

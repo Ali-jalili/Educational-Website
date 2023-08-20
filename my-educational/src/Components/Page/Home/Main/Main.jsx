@@ -1,9 +1,9 @@
 import React from 'react';
 import './Main.css';
-import { contactBoxData, dataWrapper, coursesCard, online, testimonal } from '../../../../Context/Data'
+import { contactBoxData, dataWrapper, coursesCard, online, testimonal, weblog, team } from '../../../../Context/Data'
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
+// import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -21,8 +21,8 @@ const Main = () => {
 
 
                     <div className='heading-info-about'>
-                        <h3 className='title-about-1'>LEARN ANYTHING</h3>
-                        <h2 className='title-about-2'>Benefits About Online Learning Expertise</h2>
+                        <h3 className='title-heading-text-1'>LEARN ANYTHING</h3>
+                        <h2 className='title-heading-text-2'>Benefits About Online Learning Expertise</h2>
                     </div>
 
 
@@ -176,9 +176,9 @@ const Main = () => {
 
                     <div className='contact-testimonial'>
 
-                        {testimonal.slice(0, 6).map((item, id) => (
+                        {testimonal.slice(0, 3).map((item, id) => (
 
-                            <div className='card-testimonial' >
+                            <div className='card-testimonial' key={id}>
 
                                 <div className="title--testimonial">
 
@@ -216,6 +216,47 @@ const Main = () => {
 
 
 
+
+                </div>
+
+
+
+            </section>
+
+            <section className='section-blog'>
+
+                <div className='heading-text'>
+                    <h3 className='title-heading-text-1'>OUR BLOG</h3>
+                    <h2 className='title-heading-text-2'>Recent From Blog</h2>
+                </div>
+
+                <div className='container'>
+
+                    <div className="contact-blog">
+
+                        {weblog.slice(0, 3).map((item, id) => (
+
+                            <div className='card-weblog' key={id}>
+
+                                <img src={item.cover} alt="" className="img-weblog" />
+
+                                <div className='heading-weblog'>
+
+                                    <h2 className='title-weblog'>{item.title}</h2>
+                                    <p className='desc-weblog'>{item.desc}</p>
+
+
+                                </div>
+
+
+
+
+                            </div>
+
+                        ))}
+
+
+                    </div>
 
                 </div>
 

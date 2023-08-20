@@ -250,31 +250,87 @@ export const testimonal = [
         cover: "Img/testo/t3.webp",
     },
 
-    // {
-    //     id: 4,
-    //     name: "ROGER SCOTT",
-    //     post: "MARKETING MANAGER",
-    //     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    //     cover: "Img/testo/t4.jpg",
-    // },
+    {
+        id: 4,
+        name: "ROGER SCOTT",
+        post: "MARKETING MANAGER",
+        desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        cover: "Img/testo/t4.jpg",
+    },
 
-    // {
-    //     id: 5,
-    //     name: "ROGER SCOTT",
-    //     post: "MARKETING MANAGER",
-    //     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    //     cover: "Img/testo/t5.jpg",
-    // },
+    {
+        id: 5,
+        name: "ROGER SCOTT",
+        post: "MARKETING MANAGER",
+        desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        cover: "Img/testo/t5.jpg",
+    },
 
-    // {
-    //     id: 6,
-    //     name: "ROGER SCOTT",
-    //     post: "MARKETING MANAGER",
-    //     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    //     cover: "Img/testo/t6.jpg",
-    // },
+    {
+        id: 6,
+        name: "ROGER SCOTT",
+        post: "MARKETING MANAGER",
+        desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        cover: "Img/testo/t6.jpg",
+    },
 ]
 
+export const weblog = [
+    {
+        id: 1,
+        type: "admin",
+        date: "JAN. 18, 2021",
+        com: "3 COMMENTS ",
+        title: "Build your Dream Software & Engineering Career",
+        desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+        cover: "Img/blog/b1.webp",
+    },
+    {
+        id: 2,
+        type: "admin",
+        date: "API. 25, 2022",
+        com: "5 COMMENTS ",
+        title: "Build your Dream Software & Engineering Career",
+        desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+        cover: "Img/blog/b2.webp",
+    },
+    {
+        id: 3,
+        type: "user",
+        date: "MAY. 15, 2022",
+        com: "10 COMMENTS ",
+        title: "Build your Dream Software & Engineering Career",
+        desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+        cover: "Img/blog/b3.webp",
+    },
+    {
+        id: 4,
+        type: "admin",
+        date: "JAN. 02, 2022",
+        com: "3 COMMENTS ",
+        title: "Build your Dream Software & Engineering Career",
+        desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+        cover: "Img/blog/b4.webp",
+    },
+    {
+        id: 5,
+        type: "admin",
+        date: "DEC. 14, 2022",
+        com: "3 COMMENTS ",
+        title: "Build your Dream Software & Engineering Career",
+        desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+        cover: "Img/blog/b5.webp",
+    },
+    {
+        id: 6,
+        type: "user",
+        date: "JAN. 18, 2021",
+        com: "12 COMMENTS ",
+        title: "Build your Dream Software & Engineering Career",
+        desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+        cover: "Img/blog/b6.webp",
+    },
+]
 
 
 export const team = [
