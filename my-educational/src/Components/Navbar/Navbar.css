@@ -115,7 +115,11 @@ margin-right: 10px;
 }
 
 .show-btn-logo {
- transform: translate(3%, -50%);
+ /* transform: translate(3%, -50%); */
+ transform: translate(-61%, 188%);
+
+
+
 }
 
    .show-btn{
