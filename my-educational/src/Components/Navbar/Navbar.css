@@ -108,7 +108,7 @@ margin-right: 10px;
 
 .Login-btn {
   position: fixed;
-  top: 31rem;
+  top: 88%;
   transform: translate(444%, -50%);
   transition: 0.3s;
   margin-right: 0;
@@ -132,7 +132,7 @@ margin-right: 10px;
    .menu-link{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 52px;
    background-color: rgb(49 66 151 / 50%);
     -webkit-backdrop-filter: blur(22px);
