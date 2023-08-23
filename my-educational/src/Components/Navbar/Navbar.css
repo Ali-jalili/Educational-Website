@@ -116,7 +116,7 @@ margin-right: 10px;
 
 .show-btn-logo {
  /* transform: translate(3%, -50%); */
- transform: translate(-61%, 188%);
+transform: translate(-60%, 50%);
 
 
 
@@ -137,7 +137,7 @@ margin-right: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 52px;
+    padding: 100px;
    background-color: rgb(49 66 151 / 50%);
     -webkit-backdrop-filter: blur(22px);
     backdrop-filter: blur(31px);
