@@ -61,7 +61,7 @@ const Main = () => {
 
             </section>
 
-            <section className='awrapper-home'>
+            <section className='awrapper-home' id='awrapper'>
 
                 <div className='awrapper container'>
 
@@ -86,7 +86,7 @@ const Main = () => {
 
             </section>
 
-            <section className='our-courses'>
+            <section className='our-courses' id='our-courses'>
 
                 <div className='heading-text'>
                     <h3 className='title-heading-text-1'>OUR COURSES</h3>
@@ -128,7 +128,7 @@ const Main = () => {
 
             </section>
 
-            <section className='online-courses'>
+            <section className='online-courses' id='online-courses'>
 
                 <div className='heading-text'>
                     <h3 className='title-heading-text-1'>COURSES</h3>
@@ -163,7 +163,7 @@ const Main = () => {
 
             </section>
 
-            <section className='Testimonial'>
+            <section className='Testimonial' id='Testimonial'>
 
                 <div className='heading-text'>
                     <h3 className='title-heading-text-1'>TESTIMONIAL</h3>
@@ -223,7 +223,7 @@ const Main = () => {
 
             </section>
 
-            <section className='section-blog'>
+            <section className='section-blog' id='section-blog'>
 
                 <div className='heading-text'>
                     <h3 className='title-heading-text-1'>OUR BLOG</h3>
@@ -264,7 +264,7 @@ const Main = () => {
 
             </section>
 
-            <section className='section-pricing'>
+            <section className='section-pricing' id='section-pricing'>
 
                 <div className='heading-text'>
                     <h3 className='title-heading-text-1'>OUR PRICING</h3>
@@ -340,9 +340,6 @@ const Main = () => {
                 </div>
 
             </section>
-
-
-
 
 
         </main >

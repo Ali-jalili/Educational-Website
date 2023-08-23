@@ -4,6 +4,7 @@ import Home from './Components/Page/Home/Home';
 import About from './Components/Page/About US/About';
 import Team from './Components/Page/Team/Team';
 import Allcoures from './Components/Page/All Coures/Allcoures.jsx'
+import Foter from './Components/Footer/Foter';
 
 
 function App() {
@@ -23,7 +24,11 @@ function App() {
 
         </Routes>
 
+
+
       </BrowserRouter>
+
+      <Foter />
     </>
   );
 }
