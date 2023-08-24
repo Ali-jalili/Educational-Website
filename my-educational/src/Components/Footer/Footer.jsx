@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -39,10 +39,12 @@ const Footer = () => {
                     <div className="cart-footer-3">
                         <h2 className='title-cart-1'>Explore</h2>
                         <ul className='footer-menu'>
-                            <li className='footer-items'><a href="#our-courses">Our Courses</a></li>
-                            <li className='footer-items'><a href="#online-courses">Online Courses</a></li>
-                            <li className='footer-items'><a href="#Testimonial">Testimonial</a></li>
-                            <li className='footer-items'><a href="#section-pricing">Pricing</a></li>
+
+
+                            <li className='footer-items'><Link to='/courses'>Our Courses</Link> </li>
+                            <li className='footer-items'><Link to='/team'>Team</Link>  </li>
+                            <li className='footer-items'><Link to='/journal'> Journal</Link> </li>
+                            <li className='footer-items'><Link to='/contact'> Contact</Link> </li>
                         </ul>
                     </div>
 
@@ -60,6 +62,12 @@ const Footer = () => {
 
                 </div>
 
+            </div>
+
+            <div className='legal'>
+                <p>
+                    Copyright ©2023 All rights reserved | All rights to this site belong to Education .
+                </p>
             </div>
 
         </footer>

@@ -2,12 +2,13 @@ import React from 'react';
 import './Journal.css'
 import Navbar from '../../Navbar/Navbar'
 import Header from '../../Header/Header';
+import Footer from '../../Footer/Footer'
 
 import { weblog } from "../../../Context/Data";
 
 const Journal = () => {
     return (
-        <>lilartsy-333oj7zFsdg-unsplash.jpg
+        <>
 
             <Navbar
             />
@@ -59,6 +60,8 @@ const Journal = () => {
 
                 </section>
             </main>
+
+            <Footer />
 
 
         </>

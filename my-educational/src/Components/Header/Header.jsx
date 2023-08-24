@@ -78,15 +78,15 @@ const Header = ({ text1, text2, text3, backgroundImage }) => {
                     </div>
                     <p className='p-heading'>{text3}</p>
 
-                    {/* 
+
                     <div className='button-heading'>
                         <button className='btn-heading'>GET STARTED NOW <i class="fa fa-long-arrow-alt-right"></i></button>
                         <button className='btn-heading'>VIEW COURSE  </button>
-                    </div> */}
+                    </div>
 
 
 
-                    {/* <div className="social">
+                    <div className="social">
 
                         <ul className="may-social">
 
@@ -97,7 +97,7 @@ const Header = ({ text1, text2, text3, backgroundImage }) => {
 
                         </ul>
 
-                    </div> */}
+                    </div>
 
 
 

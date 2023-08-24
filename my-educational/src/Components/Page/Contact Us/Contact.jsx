@@ -25,15 +25,15 @@ const Contact = () => {
               <div className='items grid2'>
                 <div className='box'>
                   <h4>ADDRESS:</h4>
-                  <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                  <p><i class="fa-solid fa-location-dot"></i> St. Mountain View, San Francisco, California, USA</p>
                 </div>
                 <div className='box'>
                   <h4>EMAIL:</h4>
-                  <p> info@yoursite.com</p>
+                  <p><i class="fa-solid fa-envelope"></i> info@yourdomain.com</p>
                 </div>
                 <div className='box'>
                   <h4>PHONE:</h4>
-                  <p> + 1235 2355 98</p>
+                  <p><i class="fa-solid fa-phone"></i> +2 392 3929 210</p>
                 </div>
               </div>
 
