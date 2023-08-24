@@ -71,6 +71,16 @@ display: flex;
    
 }    
 
+.items-social-footer{
+    font-size: 1.7rem;
+    color: var( --second-color);
+    transition: 0.3s;
+}
+
+.items-social-footer:hover{
+    color: var(--hover-color); 
+}
+
 @media screen and (max-width:992px){
     .contact-footer{
         display: grid;

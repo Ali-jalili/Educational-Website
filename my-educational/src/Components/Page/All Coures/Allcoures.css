@@ -1,0 +1,10 @@
+.all-course-header{
+    height: 125vh;
+    /* background-image: url('../../../../public/Img/john-schnobrich-FlPc9_VocJ4-unsplash.jpg'); */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    top: -8rem;
+    width: 100%;
+}

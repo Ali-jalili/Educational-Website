@@ -1,14 +1,16 @@
 import React from 'react'
 import './About.css'
-import Header from './Header/Header'
+
+import Navbar from '../../Navbar/Navbar'
 
 
 const About = () => {
     return (
         <>
-            <Header />
+            <Navbar />
+
         </>
     )
 }
 
-export default About
+export default About;

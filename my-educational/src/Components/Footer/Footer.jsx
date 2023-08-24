@@ -1,8 +1,8 @@
 import React from 'react';
-import './Foter.css';
+import './Footer.css';
 
 
-const Foter = () => {
+const Footer = () => {
     return (
         <footer className='footer'>
 
@@ -49,10 +49,10 @@ const Foter = () => {
                     <div className="cart-footer-4">
 
                         <ul>
-                            <li><a href="#" className='items-social'><i class='fa-brands fa-facebook'></i></a></li>
-                            <li><a href="#" className='items-social'><i class='fa-brands fa-instagram'></i></a></li>
-                            <li><a href="#" className='items-social'><i class='fa-brands fa-twitter'></i></a></li>
-                            <li><a href="#" className='items-social'><i class='fa-brands fa-youtube'></i></a></li>
+                            <li><a href="#" className='items-social-footer'><i class='fa-brands fa-facebook'></i></a></li>
+                            <li><a href="#" className='items-social-footer'><i class='fa-brands fa-instagram'></i></a></li>
+                            <li><a href="#" className='items-social-footer'><i class='fa-brands fa-twitter'></i></a></li>
+                            <li><a href="#" className='items-social-footer'><i class='fa-brands fa-youtube'></i></a></li>
                         </ul>
 
                     </div>
@@ -66,4 +66,4 @@ const Foter = () => {
     )
 }
 
-export default Foter;
+export default Footer;
