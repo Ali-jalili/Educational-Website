@@ -1,0 +1,13 @@
+
+
+.box-info{
+    margin-top: 8rem;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+    position: relative;
+    top: 10rem;
+    
+}

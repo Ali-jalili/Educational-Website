@@ -1,5 +1,6 @@
 .footer{
       margin-top: 4rem;  
+      box-shadow: 9px 9px 22px #a7a7a7, -9px -9px 22px #ffffff;
 }
 
 .contact-footer{
@@ -8,6 +9,7 @@
     margin-left: 8px;
     margin-right: 8px;
     justify-content: space-between;
+    padding: 15px 0;
 }
 
 .cart-footer-1{

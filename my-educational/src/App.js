@@ -4,6 +4,9 @@ import Home from './Components/Page/Home/Home';
 import About from './Components/Page/About US/About';
 import Team from './Components/Page/Team/Team';
 import Allcoures from './Components/Page/All Coures/Allcoures.jsx'
+import Journal from './Components/Page/Journal/Journal';
+import Contact from './Components/Page/Contact Us/Contact';
+
 
 
 
@@ -22,13 +25,19 @@ function App() {
 
           <Route path='/team' element={<Team />} />
 
+          <Route path='/journal' element={<Journal />} />
+
+          <Route path='/contact' element={<Contact />} />
+
+
+
         </Routes>
 
 
 
       </BrowserRouter>
 
-      
+
     </>
   );
 }

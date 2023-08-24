@@ -26,7 +26,7 @@ const Navbar = () => {
                             <li className='item-menu' onClick={() => showMenu(false)}><Link to="/courses">All Courses</Link></li>
                             <li className='item-menu' onClick={() => showMenu(false)}><Link to="/about">About</Link></li>
                             <li className='item-menu' onClick={() => showMenu(false)}><Link to="/team">Team</Link></li>
-                            <li className='item-menu' onClick={() => showMenu(false)}><Link to="/pricing">Pricing</Link></li>
+
                             <li className='item-menu' onClick={() => showMenu(false)}><Link to="/journal">Journal</Link></li>
                             <li className='item-menu' onClick={() => showMenu(false)}><Link to="/contact">Contact</Link></li>
 
