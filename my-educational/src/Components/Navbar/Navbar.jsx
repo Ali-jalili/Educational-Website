@@ -39,29 +39,11 @@ const Navbar = () => {
 
                     </div>
 
-                    {/* <ul className={Toggle ? 'menu-link show' : 'menu-link'}>
 
-                        <li className='item-menu' onClick={() => showMenu(false)}><Link to="/">Home</Link></li>
-                        <li className='item-menu' onClick={() => showMenu(false)}><Link to="/courses">All Courses</Link></li>
-                        <li className='item-menu' onClick={() => showMenu(false)}><Link to="/about">About</Link></li>
-                        <li className='item-menu' onClick={() => showMenu(false)}><Link to="/team">Team</Link></li>
-                        <li className='item-menu' onClick={() => showMenu(false)}><Link to="/pricing">Pricing</Link></li>
-                        <li className='item-menu' onClick={() => showMenu(false)}><Link to="/journal">Journal</Link></li>
-                        <li className='item-menu' onClick={() => showMenu(false)}><Link to="/contact">Contact</Link></li>
-
-                        <div className='close-btn' onClick={() => showMenu(!Toggle)}>
-                            <i class="fa-solid fa-xmark close-menu"></i>
-                        </div>
-
-                    </ul> */}
-
-                    {/* <div className='Login-btn'>
-                        <a href='#' className={Toggle ? 'btn-start show-btn-logo' : 'btn-start'}>Log in </a>
-                    </div> */}
 
                     <div className="parent-element">
                         <div className={Toggle ? 'Login-btn show-btn-logo' : 'Login-btn'}>
-                            <Link to='/login' className="btn-start">Log in</Link>
+                            <Link onClick={() => showMenu(false)} to='/login' className="btn-start">Log in</Link>
                         </div>
                     </div>
 
