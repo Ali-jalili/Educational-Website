@@ -7,7 +7,8 @@ import Allcoures from './Components/Page/All Coures/Allcoures.jsx'
 import Journal from './Components/Page/Journal/Journal';
 import Contact from './Components/Page/Contact Us/Contact';
 import Login from './Components/Page/Login/Login';
-import Singnup from './Components/SignUp/Singnup';
+import Singnup from './Components/Page/SignUp/Singnup';
+
 
 
 
