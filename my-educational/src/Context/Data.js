@@ -3,17 +3,17 @@ export const contactBoxData = [
 
     {
         id: 1,
-        img: "img/storytelling.png",
+        img: "Img/storytelling.png",
         title: "Online Courses"
     },
     {
         id: 2,
-        img: "img/diploma.png",
+        img: "Img/diploma.png",
         title: "Earn A Certificates"
     },
     {
         id: 3,
-        img: "img/athlete.png",
+        img: "Img/athlete.png",
         title: "Learn with Expert"
     }
 
