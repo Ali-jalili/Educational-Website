@@ -1,6 +1,5 @@
 .section-navbar{
-   background-color: rgb(49 66 151 / 50%);
-   
+    background-color: rgb(49 66 151 / 95%);
     position: fixed;
     top: 0;
     left: 0;
@@ -68,6 +67,7 @@ margin-right: 10px;
 }
 
 
+
 .btn-start{
     background-color: var(--second-color);   
     color: #fff;
@@ -95,36 +95,37 @@ margin-right: 10px;
 @media screen and (max-width :830px) {
 
    .menu-link{
-    display: none;
+      display: none;
    }
 
 
  .parent-element {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+    }
 
-.Login-btn {
-  position: fixed;
-  top: 36rem;
-  transform: translate(444%, -50%);
-  transition: 0.3s;
-  margin-right: 0;
-}
+ .Login-btn {
+    position: fixed;
+    top: 1.5rem;
+    left: -8rem;
+    /* transform: translate(444%, -8rem); */
+    transition: 0.3s;
+    margin-right: 0;
+   }
+
+
 
 .show-btn-logo {
-
-transform: translate(-51%, 1rem);
-}
-
-
-
-
+    /* transform: translate(-2%, -4rem); */
+    position: fixed; 
+    top: 1.5rem;
+    left: 0.5rem;
+  }
 
 
-   .show-btn{
+ .show-btn{
     display: block;
     margin-right: 10px;
     cursor: pointer;
@@ -135,12 +136,8 @@ transform: translate(-51%, 1rem);
     color: #fff;
    }
 
-   .menu-link{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-   padding: 40px;
-   background-color: rgb(49 66 151 / 50%);
+   .box-nav{
+    background-color: rgb(49 66 151 / 50%);
     -webkit-backdrop-filter: blur(22px);
     backdrop-filter: blur(31px);
     position: fixed;
@@ -149,25 +146,35 @@ transform: translate(-51%, 1rem);
     height: 101vh;
     width: 100%;
     transition: 0.3s;
-    padding-bottom: 16rem;
    }
 
-   .show{
+   .menu-link{
+   display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2.5rem;
+    margin-top: 2rem;
+    height: 60vh;
+    width:100% ;
+    
+   }
+
+ .show{
     right: 0;
    }
 
-  .close-btn{
+ .close-btn{
     cursor: pointer;
     display: block;
     position: absolute;
     top: 1rem;
     right: 1rem;
-}
+ }
 
-.close-menu{
+ .close-menu{
         font-size: var(--h2-font-size);
         color: #ffff;
-}
+ }
 
 
    

@@ -3,17 +3,17 @@ export const contactBoxData = [
 
     {
         id: 1,
-        image: "img/storytelling.png",
+        img: "Img/storytelling.png",
         title: "Online Courses"
     },
     {
         id: 2,
-        image: "img/diploma.png",
+        img: "Img/diploma.png",
         title: "Earn A Certificates"
     },
     {
         id: 3,
-        image: "img/athlete.png",
+        img: "Img/athlete.png",
         title: "Learn with Expert"
     }
 
@@ -55,9 +55,9 @@ export const coursesCard = [
 
     {
         id: 1,
-        coverImg: 'Img/testing.png',
+        coverImg: 'Img/our-courses/testing.png',
         coursesName: 'Introducing to Software Engineering',
-        imgMentor: 'Img/Mentor-1.jpg',
+        imgMentor: 'Img/our-courses/Mentor-1.jpg',
         nameMentor: 'Course instructor : Dani ',
         price: '$100 All Course',
         totalTime: '50 lectures (190 hrs)'
@@ -65,9 +65,9 @@ export const coursesCard = [
     },
     {
         id: 2,
-        coverImg: 'Img/caption.png',
+        coverImg: 'Img/our-courses/caption.png',
         coursesName: 'Enhancing Adobe Photoshop',
-        imgMentor: 'Img/Mentor-2.jpg',
+        imgMentor: 'Img/our-courses/Mentor-2.jpg',
         nameMentor: 'Course instructor : Valerie  ',
         price: '$200 All Course',
         totalTime: '30 lectures (125 hrs)'
@@ -76,9 +76,9 @@ export const coursesCard = [
 
     {
         id: 3,
-        coverImg: 'Img/coding.png',
+        coverImg: 'Img/our-courses/coding.png',
         coursesName: 'Web Developers',
-        imgMentor: 'Img/Mentor-3.jpg',
+        imgMentor: 'Img/our-courses/Mentor-3.jpg',
         nameMentor: 'Course instructor : Alexander ',
         price: '$150 All Course',
         totalTime: '40 lectures (180 hrs)'
@@ -87,68 +87,68 @@ export const coursesCard = [
 
     {
         id: 4,
-        coverImg: 'Img/coding.png',
-        coursesName: 'Web Developers',
-        imgMentor: 'Img/Mentor-3.jpg',
+        coverImg: 'Img/our-courses/coding.png',
+        coursesName: 'Introducing to Programming with WordPress',
+        imgMentor: 'Img/our-courses/Mentor-3.jpg',
         nameMentor: 'Course instructor : Alexander ',
         price: '$150 All Course',
         totalTime: '40 lectures (180 hrs)'
 
     },
-    // {
-    //     id: 5,
-    //     coverImg: 'Img/coding.png',
-    //     coursesName: 'Web Developers',
-    //     imgMentor: 'Img/Mentor-3.jpg',
-    //     nameMentor: 'Course instructor : Alexander ',
-    //     price: '$150 All Course',
-    //     totalTime: '40 lectures (180 hrs)'
+    {
+        id: 5,
+        coverImg: 'Img/our-courses/coding.png',
+        coursesName: 'Web Developers',
+        imgMentor: 'Img/our-courses/Mentor-3.jpg',
+        nameMentor: 'Course instructor : Alexander ',
+        price: '$150 All Course',
+        totalTime: '40 lectures (180 hrs)'
 
-    // },
-    // {
-    //     id: 6,
-    //     coverImg: 'Img/coding.png',
-    //     coursesName: 'Web Developers',
-    //     imgMentor: 'Img/Mentor-3.jpg',
-    //     nameMentor: 'Course instructor : Alexander ',
-    //     price: '$150 All Course',
-    //     totalTime: '40 lectures (180 hrs)'
+    },
+    {
+        id: 6,
+        coverImg: 'Img/our-courses/coding.png',
+        coursesName: 'Web Developers',
+        imgMentor: 'Img/our-courses/Mentor-3.jpg',
+        nameMentor: 'Course instructor : Alexander ',
+        price: '$150 All Course',
+        totalTime: '40 lectures (180 hrs)'
 
-    // },
+    },
 
 
-    // {
-    //     id: 7,
-    //     coverImg: 'Img/coding.png',
-    //     coursesName: 'Web Developers',
-    //     imgMentor: 'Img/Mentor-3.jpg',
-    //     nameMentor: 'Course instructor : Alexander ',
-    //     price: '$150 All Course',
-    //     totalTime: '40 lectures (180 hrs)'
+    {
+        id: 7,
+        coverImg: 'Img/our-courses/coding.png',
+        coursesName: 'Web Developers',
+        imgMentor: 'Img/our-courses/Mentor-3.jpg',
+        nameMentor: 'Course instructor : Alexander ',
+        price: '$150 All Course',
+        totalTime: '40 lectures (180 hrs)'
 
-    // },
+    },
 
-    // {
-    //     id: 8,
-    //     coverImg: 'Img/coding.png',
-    //     coursesName: 'Web Developers',
-    //     imgMentor: 'Img/Mentor-3.jpg',
-    //     nameMentor: 'Course instructor : Alexander ',
-    //     price: '$150 All Course',
-    //     totalTime: '40 lectures (180 hrs)'
+    {
+        id: 8,
+        coverImg: 'Img/our-courses/coding.png',
+        coursesName: 'Web Developers',
+        imgMentor: 'Img/our-courses/Mentor-3.jpg',
+        nameMentor: 'Course instructor : Alexander ',
+        price: '$150 All Course',
+        totalTime: '40 lectures (180 hrs)'
 
-    // },
+    },
 
-    // {
-    //     id: 9,
-    //     coverImg: 'Img/coding.png',
-    //     coursesName: 'Web Developers',
-    //     imgMentor: 'Img/Mentor-3.jpg',
-    //     nameMentor: 'Course instructor : Alexander ',
-    //     price: '$150 All Course',
-    //     totalTime: '40 lectures (180 hrs)'
+    {
+        id: 9,
+        coverImg: 'Img/our-courses/coding.png',
+        coursesName: 'Web Developers',
+        imgMentor: 'Img/our-courses/Mentor-3.jpg',
+        nameMentor: 'Course instructor : Alexander ',
+        price: '$150 All Course',
+        totalTime: '40 lectures (180 hrs)'
 
-    // },
+    },
 
 ]
 
@@ -177,54 +177,54 @@ export const online = [
         courseName: "History & Archeologic",
         course: "15 Courses",
     },
-    // {
-    //     cover: "Img/courses/online/o5.png",
-    //     hoverCover: "Img/courses/online/o5.1.png",
-    //     courseName: "Software Engineering",
-    //     course: "30 Courses",
-    // },
-    // {
-    //     cover: "Img/courses/online/o6.png",
-    //     hoverCover: "Img/courses/online/o6.1.png",
-    //     courseName: "Information Software",
-    //     course: "60 Courses",
-    // },
-    // {
-    //     cover: "Img/courses/online/o7.png",
-    //     hoverCover: "Img/courses/online/o7.1.png",
-    //     courseName: "Health & Fitness",
-    //     course: "10 Courses",
-    // },
-    // {
-    //     cover: "Img/courses/online/o8.png",
-    //     hoverCover: "Img/courses/online/o8.1.png",
-    //     courseName: "Marketing",
-    //     course: "30 Courses",
-    // },
-    // {
-    //     cover: "Img/courses/online/o9.png",
-    //     hoverCover: "Img/courses/online/o9.1.png",
-    //     courseName: "Graphic Design",
-    //     course: "80 Courses",
-    // },
-    // {
-    //     cover: "Img/courses/online/o10.png",
-    //     hoverCover: "Img/courses/online/o10.1.png",
-    //     courseName: "Music",
-    //     course: "120 Courses",
-    // },
-    // {
-    //     cover: "Img/courses/online/o11.png",
-    //     hoverCover: "Img/courses/online/o11.1.png",
-    //     courseName: "Business Administration",
-    //     course: "17 Courses",
-    // },
-    // {
-    //     cover: "Img/courses/online/o12.png",
-    //     hoverCover: "Img/courses/online/o12.1.png",
-    //     courseName: "Web Management",
-    //     course: "17 Courses",
-    // },
+    {
+        cover: "Img/courses/online/o5.png",
+        hoverCover: "Img/courses/online/o5.1.png",
+        courseName: "Software Engineering",
+        course: "30 Courses",
+    },
+    {
+        cover: "Img/courses/online/o6.png",
+        hoverCover: "Img/courses/online/o6.1.png",
+        courseName: "Information Software",
+        course: "60 Courses",
+    },
+    {
+        cover: "Img/courses/online/o7.png",
+        hoverCover: "Img/courses/online/o7.1.png",
+        courseName: "Health & Fitness",
+        course: "10 Courses",
+    },
+    {
+        cover: "Img/courses/online/o8.png",
+        hoverCover: "Img/courses/online/o8.1.png",
+        courseName: "Marketing",
+        course: "30 Courses",
+    },
+    {
+        cover: "Img/courses/online/o9.png",
+        hoverCover: "Img/courses/online/o9.1.png",
+        courseName: "Graphic Design",
+        course: "80 Courses",
+    },
+    {
+        cover: "Img/courses/online/o10.png",
+        hoverCover: "Img/courses/online/o10.1.png",
+        courseName: "Music",
+        course: "120 Courses",
+    },
+    {
+        cover: "Img/courses/online/o11.png",
+        hoverCover: "Img/courses/online/o11.1.png",
+        courseName: "Business Administration",
+        course: "17 Courses",
+    },
+    {
+        cover: "Img/courses/online/o12.png",
+        hoverCover: "Img/courses/online/o12.1.png",
+        courseName: "Web Management",
+        course: "17 Courses",
+    },
 ]
 
 export const testimonal = [
@@ -395,5 +395,32 @@ export const team = [
         cover: "Img/team/t8.webp",
         name: "Ph.D Brian Wooden",
         work: "DEVELOPER AND LEAD INSTRUCTOR",
+    },
+]
+
+export const faq = [
+    {
+        title: "How to Enroll This Online Courses?",
+        desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    },
+    {
+        title: "Where It is hidden by default, until the collapse?",
+        desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    },
+    {
+        title: "How It is hidden by default, until the collapse?",
+        desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    },
+    {
+        title: "How to Enroll This Online Courses?",
+        desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    },
+    {
+        title: "Where It is hidden by default, until the collapse?",
+        desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    },
+    {
+        title: "How It is hidden by default, until the collapse?",
+        desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
     },
 ]

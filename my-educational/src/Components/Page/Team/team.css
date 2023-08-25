@@ -1,0 +1,83 @@
+.main-team .team{
+  margin-top: -6rem;
+}
+
+.contact{
+  display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 4rem;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.team .items {
+  transition: 0.5s;
+  box-shadow: 9px 9px 22px #a7a7a7, -9px -9px 22px #ffffff;
+    border-radius: 5px;
+}
+.team .img {
+  position: relative;
+}
+.team img {
+  width: 100%;
+  height: 100%;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  z-index: 11;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  opacity: 0;
+  transition: 0.3s;
+}
+.overlay i {
+  background-color: #000;
+  color: #fff;
+  margin: 5px;
+  transition: 0.3s;
+}
+.team .details {
+  padding: 30px;
+  text-align: center;
+}
+.team .details h2 {
+  font-weight: 500;
+  font-size: 20px;
+ 
+}
+.team .details p {
+  font-size: 15px;
+  color: grey;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+.icon {
+    background-color: hsla(0,0%,100%,.3);
+    border-radius: 50%;
+    color: #1eb2a6;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: .5s;
+    width: 40px;
+}
+
+
+.team .items:hover {
+  background-color: var(--hover-color);
+  color: #fff;
+  cursor: pointer;
+}
+.team .items:hover p {
+  color: #fff;
+}
+.team .items:hover .overlay {
+  opacity: 1;
+}
+.team .items:hover .overlay i:hover {
+ background-color: var(--hover-color);
+  color: #fff;
+}
