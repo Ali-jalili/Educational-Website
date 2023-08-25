@@ -2,8 +2,9 @@ import React from 'react'
 import './Singup.css';
 
 
-import Navbar from '../Navbar/Navbar';
+
 import { Link } from 'react-router-dom';
+import Navbar from '../../Navbar/Navbar';
 
 const Singnup = () => {
     return (
