@@ -61,7 +61,7 @@ const Navbar = () => {
 
                     <div className="parent-element">
                         <div className={Toggle ? 'Login-btn show-btn-logo' : 'Login-btn'}>
-                            <a href="#" className="btn-start">Log in</a>
+                            <Link to='/login' className="btn-start">Log in</Link>
                         </div>
                     </div>
 

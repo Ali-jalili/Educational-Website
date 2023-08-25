@@ -6,6 +6,8 @@ import Team from './Components/Page/Team/Team';
 import Allcoures from './Components/Page/All Coures/Allcoures.jsx'
 import Journal from './Components/Page/Journal/Journal';
 import Contact from './Components/Page/Contact Us/Contact';
+import Login from './Components/Page/Login/Login';
+import Singnup from './Components/SignUp/Singnup';
 
 
 
@@ -28,6 +30,10 @@ function App() {
           <Route path='/journal' element={<Journal />} />
 
           <Route path='/contact' element={<Contact />} />
+
+          <Route path='/login' element={<Login />} />
+
+          <Route path='/singnup' element={<Singnup />} />
 
         </Routes>
 
