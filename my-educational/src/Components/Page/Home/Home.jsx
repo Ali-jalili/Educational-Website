@@ -9,7 +9,7 @@ const Home = () => {
         <>
             <Header
                 backgroundImage='Img/home-page.jpg'
-                text1={['WELCOME TO ACADEMIA']}
+                text1={['WELCOME TO ACADEMIA APS']}
                 text2={'Best Online Education Expertise'}
                 text3={'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'} />
 
