@@ -110,7 +110,6 @@ margin-right: 10px;
     position: fixed;
     top: 1.5rem;
     left: -8rem;
-    /* transform: translate(444%, -8rem); */
     transition: 0.3s;
     margin-right: 0;
    }
@@ -118,7 +117,6 @@ margin-right: 10px;
 
 
  .show-btn-logo {
-    /* transform: translate(-2%, -4rem); */
     position: fixed; 
     top: 1.5rem;
     left: 0.5rem;
