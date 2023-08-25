@@ -537,11 +537,15 @@ background-color: var(--hover-color);
     padding: 12px;
     outline: none;
     border: none;
-}
+} 
 
 /*??RESPONSIVE*/
 
 @media screen and (max-width:840px) {
+
+    .swiper-slide{
+        width: 360px !important;
+    }
 
     .box-info-about{
         display: flex;

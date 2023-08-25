@@ -3,10 +3,10 @@ import './Main.css';
 
 import { contactBoxData, dataWrapper, coursesCard, online, testimonal, weblog, price } from '../../../../Context/Data'
 
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
 
-// Import Swiper styles
+
 import 'swiper/css';
 
 
@@ -176,8 +176,6 @@ const Main = () => {
 
                     <div className='container'>
 
-
-
                         <div className='contact-testimonial'>
 
                             {testimonal.slice(0, 3).map((item, id) => (
@@ -217,6 +215,106 @@ const Main = () => {
                             ))}
 
                         </div>
+
+
+
+                        <Swiper
+                            // install Swiper modules
+                            modules={[Navigation, Pagination, Scrollbar]}
+                            spaceBetween={50}
+                            slidesPerView={3}
+                            navigation
+                            pagination={{ clickable: true }}
+                            scrollbar={{ draggable: true }}
+                            onSwiper={(swiper) => console.log(swiper)}
+                            onSlideChange={() => console.log('slide change')}
+                        >
+                            {/* <SwiperSlide>Slide 1</SwiperSlide>
+                            <SwiperSlide>Slide 2</SwiperSlide>
+                            <SwiperSlide>Slide 3</SwiperSlide>
+                            <SwiperSlide>Slide 4</SwiperSlide> */}
+
+                            <div className='contact-testimonial'>
+
+                                {testimonal.map((item, id) => (
+
+                                    <SwiperSlide className='card-testimonial' key={id}>
+
+                                        <div className="title--testimonial">
+
+                                            <img className='img-testimonial' src={item.cover} alt="" />
+
+                                            <div className="text-title-testimonial">
+
+                                                <h3 className="hed-testimonial">
+                                                    {item.name}
+
+                                                </h3>
+
+                                                <span className='text-testimonial'>
+                                                    {item.post}
+
+                                                </span>
+
+
+                                            </div>
+
+                                        </div>
+
+                                        <p className='p-testimonial'>
+
+                                            {item.desc}
+
+                                        </p>
+
+                                    </SwiperSlide>
+
+
+                                ))}
+                            </div>
+
+                            {/* {testimonal.map((item, id) => (
+
+                                <SwiperSlide className='card-testimonial' key={id}>
+
+                                    <div className="title--testimonial">
+
+                                        <img className='img-testimonial' src={item.cover} alt="" />
+
+                                        <div className="text-title-testimonial">
+
+                                            <h3 className="hed-testimonial">
+                                                {item.name}
+
+                                            </h3>
+
+                                            <span className='text-testimonial'>
+                                                {item.post}
+
+                                            </span>
+
+
+                                        </div>
+
+                                    </div>
+
+                                    <p className='p-testimonial'>
+
+                                        {item.desc}
+
+                                    </p>
+
+                                </SwiperSlide>
+
+
+                            ))} */}
+
+                        </Swiper>
+
+
+
+
+
 
 
 
