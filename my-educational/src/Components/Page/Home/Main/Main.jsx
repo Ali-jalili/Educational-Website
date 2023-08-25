@@ -46,7 +46,7 @@ const Main = () => {
                                     {contactBoxData.map((item, id) => (
                                         <div className="my-box" key={id}>
 
-                                            <img className='img-learn' src={item.image} alt="" />
+                                            <img className='img-learn' src={item.img} alt="img-learn" />
 
                                             <div>
                                                 <h3 className="box-title">{item.title}</h3>

@@ -1,8 +1,6 @@
 import React from 'react'
 import './Allcoures.css';
 import { coursesCard, online } from '../../../Context/Data'
-
-import Navbar from '../../Navbar/Navbar';
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
 
@@ -17,11 +15,11 @@ const Allcoures = () => {
     return (
         <>
 
-            <Navbar />
+
 
             <Header
                 text2={'All Courses'}
-                backgroundImage='Img/john-schnobrich-FlPc9_VocJ4-unsplash.jpg'
+                backgroundImage='Img/coures-page.jpg'
                 text3={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi.'} />
 
 

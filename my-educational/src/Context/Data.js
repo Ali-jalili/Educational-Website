@@ -3,17 +3,17 @@ export const contactBoxData = [
 
     {
         id: 1,
-        image: "img/storytelling.png",
+        img: "img/storytelling.png",
         title: "Online Courses"
     },
     {
         id: 2,
-        image: "img/diploma.png",
+        img: "img/diploma.png",
         title: "Earn A Certificates"
     },
     {
         id: 3,
-        image: "img/athlete.png",
+        img: "img/athlete.png",
         title: "Learn with Expert"
     }
 
@@ -55,9 +55,9 @@ export const coursesCard = [
 
     {
         id: 1,
-        coverImg: 'Img/testing.png',
+        coverImg: 'Img/our-courses/testing.png',
         coursesName: 'Introducing to Software Engineering',
-        imgMentor: 'Img/Mentor-1.jpg',
+        imgMentor: 'Img/our-courses/Mentor-1.jpg',
         nameMentor: 'Course instructor : Dani ',
         price: '$100 All Course',
         totalTime: '50 lectures (190 hrs)'
@@ -65,9 +65,9 @@ export const coursesCard = [
     },
     {
         id: 2,
-        coverImg: 'Img/caption.png',
+        coverImg: 'Img/our-courses/caption.png',
         coursesName: 'Enhancing Adobe Photoshop',
-        imgMentor: 'Img/Mentor-2.jpg',
+        imgMentor: 'Img/our-courses/Mentor-2.jpg',
         nameMentor: 'Course instructor : Valerie  ',
         price: '$200 All Course',
         totalTime: '30 lectures (125 hrs)'
@@ -76,9 +76,9 @@ export const coursesCard = [
 
     {
         id: 3,
-        coverImg: 'Img/coding.png',
+        coverImg: 'Img/our-courses/coding.png',
         coursesName: 'Web Developers',
-        imgMentor: 'Img/Mentor-3.jpg',
+        imgMentor: 'Img/our-courses/Mentor-3.jpg',
         nameMentor: 'Course instructor : Alexander ',
         price: '$150 All Course',
         totalTime: '40 lectures (180 hrs)'
@@ -87,9 +87,9 @@ export const coursesCard = [
 
     {
         id: 4,
-        coverImg: 'Img/coding.png',
+        coverImg: 'Img/our-courses/coding.png',
         coursesName: 'Introducing to Programming with WordPress',
-        imgMentor: 'Img/Mentor-3.jpg',
+        imgMentor: 'Img/our-courses/Mentor-3.jpg',
         nameMentor: 'Course instructor : Alexander ',
         price: '$150 All Course',
         totalTime: '40 lectures (180 hrs)'
@@ -97,9 +97,9 @@ export const coursesCard = [
     },
     {
         id: 5,
-        coverImg: 'Img/coding.png',
+        coverImg: 'Img/our-courses/coding.png',
         coursesName: 'Web Developers',
-        imgMentor: 'Img/Mentor-3.jpg',
+        imgMentor: 'Img/our-courses/Mentor-3.jpg',
         nameMentor: 'Course instructor : Alexander ',
         price: '$150 All Course',
         totalTime: '40 lectures (180 hrs)'
@@ -107,9 +107,9 @@ export const coursesCard = [
     },
     {
         id: 6,
-        coverImg: 'Img/coding.png',
+        coverImg: 'Img/our-courses/coding.png',
         coursesName: 'Web Developers',
-        imgMentor: 'Img/Mentor-3.jpg',
+        imgMentor: 'Img/our-courses/Mentor-3.jpg',
         nameMentor: 'Course instructor : Alexander ',
         price: '$150 All Course',
         totalTime: '40 lectures (180 hrs)'
@@ -119,9 +119,9 @@ export const coursesCard = [
 
     {
         id: 7,
-        coverImg: 'Img/coding.png',
+        coverImg: 'Img/our-courses/coding.png',
         coursesName: 'Web Developers',
-        imgMentor: 'Img/Mentor-3.jpg',
+        imgMentor: 'Img/our-courses/Mentor-3.jpg',
         nameMentor: 'Course instructor : Alexander ',
         price: '$150 All Course',
         totalTime: '40 lectures (180 hrs)'
@@ -130,9 +130,9 @@ export const coursesCard = [
 
     {
         id: 8,
-        coverImg: 'Img/coding.png',
+        coverImg: 'Img/our-courses/coding.png',
         coursesName: 'Web Developers',
-        imgMentor: 'Img/Mentor-3.jpg',
+        imgMentor: 'Img/our-courses/Mentor-3.jpg',
         nameMentor: 'Course instructor : Alexander ',
         price: '$150 All Course',
         totalTime: '40 lectures (180 hrs)'
@@ -141,9 +141,9 @@ export const coursesCard = [
 
     {
         id: 9,
-        coverImg: 'Img/coding.png',
+        coverImg: 'Img/our-courses/coding.png',
         coursesName: 'Web Developers',
-        imgMentor: 'Img/Mentor-3.jpg',
+        imgMentor: 'Img/our-courses/Mentor-3.jpg',
         nameMentor: 'Course instructor : Alexander ',
         price: '$150 All Course',
         totalTime: '40 lectures (180 hrs)'

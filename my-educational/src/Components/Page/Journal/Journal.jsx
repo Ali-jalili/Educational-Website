@@ -1,6 +1,5 @@
 import React from 'react';
 import './Journal.css'
-import Navbar from '../../Navbar/Navbar'
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer'
 
@@ -10,12 +9,10 @@ const Journal = () => {
     return (
         <>
 
-            <Navbar
-            />
 
             <Header
                 text2={'Blog Post'}
-                backgroundImage='Img/lilartsy-333oj7zFsdg-unsplash.jpg'
+                backgroundImage='Img/journal-page.jpg'
                 text3={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi.'} />
 
             <main className='main-blog'>

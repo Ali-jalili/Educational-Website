@@ -7,7 +7,7 @@ import Footer from '../../Footer/Footer';
 const Home = () => {
     return (
         <>
-            <Header backgroundImage='Img/christin-hume-Hcfwew744z4-unsplash.jpg' text1={['WELCOME TO ACADEMIA']} text2={'Best Online Education Expertise'} text3={'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'} />
+            <Header backgroundImage='Img/home-page.jpg' text1={['WELCOME TO ACADEMIA']} text2={'Best Online Education Expertise'} text3={'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'} />
             <Main />
             <Footer />
         </>

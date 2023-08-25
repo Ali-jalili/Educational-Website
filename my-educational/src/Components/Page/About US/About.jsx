@@ -1,7 +1,6 @@
 import React from 'react'
 import './About.css'
 import { contactBoxData, dataWrapper } from '../../../Context/Data'
-import Navbar from '../../Navbar/Navbar'
 import Header from '../../Header/Header'
 import Footer from '../../Footer/Footer'
 import Faq from '../../Faq/Faq'
@@ -10,14 +9,16 @@ import Faq from '../../Faq/Faq'
 const About = () => {
     return (
         <>
-            <Navbar />
+
+
 
             <Header text2={'About Us'}
-                backgroundImage='Img/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg'
+                backgroundImage='Img/about-pag.jpg'
                 text3={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque'}
             />
 
-            <main>
+            <main className='main-about'>
+
                 <section className='about-Home'>
 
                     <div className='about-home-section container'>
@@ -45,7 +46,7 @@ const About = () => {
                                     {contactBoxData.map((item, id) => (
                                         <div className="my-box" key={id}>
 
-                                            <img className='img-learn' src={item.image} alt="" />
+                                            <img className='img-learn' src={item.img} alt="" />
 
                                             <div>
                                                 <h3 className="box-title">{item.title}</h3>
@@ -90,9 +91,11 @@ const About = () => {
 
                 </section>
 
+                <Faq />
+
             </main>
 
-            <Faq />
+
 
             <Footer />
 
